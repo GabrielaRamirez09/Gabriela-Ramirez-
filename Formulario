@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> Nueva pestaña </title>
+</head>
+<body>
+<h1 style="background-color:SlateBlue;">LLENA ESTE FORMULARIO PARA HACER UNA COMPRA EN GAB'S ACCESORIOS <h1>
+<p style="color:red;">Datos Personales</p>
+<p>
+<form>
+<p>
+<label for="nombre">Nombre:</label>
+<input type=text name="nombre" id="nombre">
+</p>
+<p>
+<label for="apellido">Apellido:</label>
+<input type=text name="apellido" id="apellido">
+</p>
+<p>
+<label for="cedula">Cédula:</label>
+<input type=text name="cedula" id="cedula">
+</p>
+<p>
+<label for="Clave">Clave de usuario:</label>
+<input type=text name="Clave" id="Clave">
+</p>
+<p>
+<label for="Pago">Elejir Método de Pago:</label>
+<select id="Tarjeta" name="Tarjeta">
+  <option value="EFECTIVO">EFECTIVO</option>
+  <option value="TARJETA">TARJETA</option>
+  
+</select>
+</p>
+<body>
+</html>
